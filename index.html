@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/687b453bb3.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    
+
+    <section class="main"> <!-- Banner -->
+        <header>
+
+            <div class="center menu-container"> <!--Menu+logo-->
+
+                <div class="logo"><!--Logo-->
+                    <h3><i class="fa-solid fa-plane-departure"></i></i> HappyTravel</h3>
+                </div>
+
+                <div class="menu"><!--Menu-->
+                    <a class="active-menu" href="index.html">Inicio</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="contato.html">Contato</a>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="chamada"><!--Texto + Botao-->
+            <h1><em>Economize</em> muito com as melhores ofertas de viagens</h1>
+            <p>Aqui temos a melhor opçao com menor custo para voce e sua familia, vamos viajar juntos!!!</p>
+            <br><br><br>
+            <button class="botao"><strong>Melhores Ofertas!</strong></button>
+        </div>
+    </section>
+
+    <section class="center-produtos"><!--Seçao dos pacotes-->
+        <div class="pacotes-texto"><!--Formataçao da parte de Texto-->
+            <h1><i class="fa-solid fa-suitcase"></i> Pacotes</h1>
+            <br>
+            <h3>Promoções imperdíveis</h3>
+            <br>
+        </div>
+
+        <div class="product"><!--Produto1-->
+            <img src="img/maragogi.jpeg" alt="Maragogi">
+            <h2>Maragogi</h2>
+            <p>De R$ 2300,00 por pessoa</p>
+            <p class="discount">Agora apenas <em id="val2">R$ 1499,00</em> por pessoa</p>
+            <h4>Quantas pessoas tem na sua familia ?</h4>
+            <div class="pessoas">
+                <input type="number" id="inputNumber" placeholder="Digite um número">
+              </div>
+              <button id="btn">Ver preço</button>
+              <p id="result"></p>
+
+              
+          </div>
+        
+          <div class="product"><!--Produto2-->
+            <img src="img/Egito.jpeg" alt="Egito">
+            <h2>Egito</h2>
+            <p>De R$ 2799,00 por pessoa</p>
+            <p class="discount">Agora apenas <em id="val2">R$ 2000,00</em> por pessoa</p>
+            <h4>Quantas pessoas tem na sua familia ?</h4>
+            <div class="pessoas">
+                <input type="number" id="inputNumber1" placeholder="Digite um número">
+              </div>
+              <button id="btn1">Ver preço</button>
+
+              <p id="result1"></p>
+
+              
+          </div>
+        
+          <div class="product"><!--Produto3-->
+            <img src="img/maldivas.jpeg" alt="Maldivas">
+            <h2>Maldivas</h2>
+            <p>De R$ 3700,00 por pessoa</p>
+            <p class="discount">Agora apenas <em id="val3">R$ 2999,00</em> por pessoa</p>
+            <h4>Quantas pessoas tem na sua familia ?</h4>
+            <div class="pessoas">
+                <input type="number" id="inputNumber2" placeholder="Digite um número">
+              </div>
+              <button id="btn2">Ver preço</button>
+              
+
+              <p id="result2"></p>
+              
+
+             
+          </div>
+    </section>
+
+
+    <script src="precos.js"></script>
+</body>
+
+<footer><p>Todos os direitos reservados!</p></footer>
+
+</html>
